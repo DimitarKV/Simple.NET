@@ -15,7 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        _logger.Log(LogLevel.Debug, "Home page served!");
+        _logger.Log(LogLevel.Information, "Home page served!");
         return View();
     }
 
